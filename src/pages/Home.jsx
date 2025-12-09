@@ -164,7 +164,7 @@ const Home = () => {
                   <div style={styles.taskRow}>
                     <div style={styles.taskContent}>
                       <span style={styles.taskNum}>{idx + 1}.</span>
-                      <span>{task.text}</span>
+                      <span style={{color:"black"}}>{task.text}</span>
                     </div>
                     <div style={{ display: "flex", gap: "5px" }}>
                       <button onClick={() => {
@@ -221,7 +221,7 @@ const styles = {
   taskItem: { backgroundColor: "#FFE0B2", marginBottom: "10px", padding: "10px", borderRadius: "8px", display: "flex", flexDirection: "column" },
   taskRow: { display: "flex", alignItems: "center", justifyContent: "space-between" },
   taskContent: { display: "flex", alignItems: "center", gap: "10px" },
-  taskNum: { fontWeight: "bold", color: "#E65100", minWidth: "20px", textAlign: "center" },
+  taskNum: { fontWeight: "bold", color: "#000000", minWidth: "20px", textAlign: "center" },
   editBtn: { backgroundColor: "#FFB74D", color: "#4E342E", border: "none", borderRadius: "5px", cursor: "pointer", padding: "2px 6px" },
   delBtn: { backgroundColor: "#E65100", color: "#fff", border: "none", borderRadius: "5px", cursor: "pointer", padding: "2px 6px" },
   saveBtn: { padding: "8px 12px", borderRadius: "5px", border: "none", backgroundColor: "#FF6F00", color: "#fff", cursor: "pointer" },
