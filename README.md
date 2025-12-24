@@ -1,16 +1,77 @@
-# React + Vite
+✅ Taskify – Task Management Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskify ek Task Management Web Application hai jisme user apne tasks ko easily add, update, delete aur manage kar sakta hai. User kisi special date ke liye task add kar sakta hai aur baad me us selected date par apne tasks dekh sakta hai. Ye application React, Next.js, Supabase aur Tailwind CSS ka use karke banayi gayi hai aur fully responsive hai.
 
-Currently, two official plugins are available:
+🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React.js – UI development
 
-## React Compiler
+Next.js – Routing & Performance
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Supabase – Backend, Authentication & Database
 
-## Expanding the ESLint configuration
+Tailwind CSS – Styling & Responsive Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+
+🔐 User Authentication (Supabase)
+
+Login
+
+Logout
+
+📝 Task Management (CRUD Operations)
+
+Add new task
+
+Update task
+
+Delete task
+
+View tasks
+
+📅 Date-wise Task Management
+
+Special date ke liye task add karna
+
+Selected date par tasks dekhna
+
+🎨 UI / UX
+
+Clean & modern interface
+
+Fully responsive (Mobile, Tablet, Desktop)
+
+⚛️ React / Next.js Features Used
+
+Functional Components
+
+Reusable Components
+
+React Hooks (useState, useEffect, useContext)
+
+Supabase integration for Auth & Database
+
+Optimized and clean code structure
+
+Scalable architecture
+
+🛠️ Project Setup
+
+Repository clone karein
+
+git clone <your-repository-url>
+
+
+Dependencies install karein
+
+npm install
+
+
+Project run karein
+
+npm run dev
+
+📌 Note
+
+Ye project learning aur practice purpose ke liye banaya gaya hai aur modern Task Management Web Application ke real-world use cases ko follow karta hai.
